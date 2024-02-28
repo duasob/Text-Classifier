@@ -27,6 +27,19 @@ This project is centered around the development of a Text Classifier using ``Ten
 *   **Dataset**: Utilized a labeled dataset of text messages, which was crucial in training the model to distinguish between spam and ham messages accurately. We "manually" tokenize the binary output, and use a ``Text Vectorization layer`` to tokenize any text input. 
 *   **Results**: Achieved promising results in terms of accuracy and performance, indicating the model's effectiveness in classifying text messages.
 
+These are a few examples of correctly classified messages:
+```
+HAM: how are you doing today
+SPAM: sale today! to stop texts call 98912460 4
+HAM: i dont want to go. can we try it a different day? available sat
+SPAM: our new mobile video service is live. just install on your phone to start watching.
+SPAM: you have won £1000 cash! call to claim your prize.
+HAM: i'll bring it tomorrow. don't forget the milk.
+HAM: wow, is your arm alright. that happened to me one time too
+
+```
+
+
 ### Things to Improve
 
 This project was a significant learning experience, providing insights into the complexities of working with text data and the power of TensorFlow in building sophisticated machine learning models. It highlighted the importance of a well-thought-out preprocessing pipeline and the need for careful model tuning to achieve high accuracy in classification tasks.
